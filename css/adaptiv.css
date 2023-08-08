@@ -1,0 +1,159 @@
+@media (max-width: 960px) {
+	.about__cards {
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 720px) {
+	.tabs__nav {
+		gap: 10px;
+	}
+
+	.tabs__nav-btn {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+
+	.footer__desc {
+		padding: 0px 0 35px;
+	}
+
+	.footer__desc-wrapper {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+	
+	.footer__title {
+		font-size: 16px;
+		letter-spacing: 2px;
+		margin-bottom: 10px;
+	}
+
+	.footer__about {
+		width: 100%;
+		justify-content: flex-start;
+	}
+
+	.footer__links {
+		width: 100%;
+		justify-content: flex-start;
+	}
+
+	.footer__social {
+		width: 100%;
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 540px) {
+	.white-section {
+		padding: 40px 0;
+	}
+	
+	.black-section {
+		padding: 40px 0;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+
+	.subtitle {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+
+	.header__row {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.header__list {
+		flex-direction: column;
+		text-align: center;
+		gap: 10px;
+		margin-top: 20px;
+	}
+
+	.welcome {
+		margin-top: 50px;
+	}
+
+	.welcome__title {
+		font-size: 39px;
+		line-height: 1.5;
+	}
+
+	.welcome__links {
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	.welcome__links > * + * {
+		margin-left: 0px;
+	}
+
+	.link-primary {
+		margin-bottom: 20px;
+	}
+
+	.about__item-title {
+		font-size: 14px;
+		letter-spacing: 3px;
+	}
+
+	.about__item-text {
+		font-size: 12px;
+	}
+
+	.services__cards {
+		flex-direction: column;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	.services__item {
+		width: 100%;
+	}
+
+	.services__item-img {
+		margin-bottom: 10px;
+	}
+
+	.services__item-title {
+		font-size: 14px;
+		letter-spacing: 3px;
+		margin-bottom: 5px;
+	}
+
+	.services__item-text {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.services__item-link {
+		font-size: 16px;
+		letter-spacing: 3px;
+	}
+
+	.tabs__nav-btn {
+		font-size: 12px;
+		letter-spacing: 0px;
+		padding: 0px 10px;
+	}
+
+	.tabs__item-title {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.tabs__item-text p{
+		font-size: 12px;
+		line-height: 1.2;
+	}
+}
